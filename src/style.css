@@ -1,0 +1,159 @@
+body{
+    background-color: #696969;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+  
+}
+h6{
+    color: white;
+   left: -100%;
+}
+.login{
+    position:relative;
+
+    
+}
+ .welcome{
+    position: absolute;
+    right: 100%;
+    top: 2rem;
+    background:url("https://i.pinimg.com/474x/78/b8/f2/78b8f2676dfa43a041ff2635f38a9936.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+   
+}
+h5{
+    margin-top: 100px;
+}
+ .loginForm{
+    padding: 2rem;
+    background-color: white;
+    height: 330px;
+    width: 410px;
+  
+   
+}
+.form-input{
+    display: grid;
+    grid-template-columns: 50%;
+   
+}
+input{
+    padding: 10px 20px;
+    margin:20px;
+    box-sizing:content-box;
+    border-radius: 2px;
+    width: 300px;
+    height: 40px;
+    background-color: #dedede;
+    margin-left: 38px;
+   
+  
+  
+}
+button{
+    padding: 10px 20px;
+    margin:20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 100px;
+    height: fit-content;
+    cursor: pointer;
+    color: white;
+    background-color: 	#808080;
+    margin-left: 220px;
+    border: none;
+}
+#email{
+    font-size: 15px;
+    font-weight:bold;
+   
+    
+    
+ }
+ #password{
+    font-size: 15px;
+    font-weight:bold;
+    margin-right: 30px;
+   
+   
+    
+ }
+
+@media (max-width:768px){
+    body{
+        background-color: white;
+    }
+    .main{
+        position: absolute;
+        top: 20%;
+        left: 60%;
+        
+        transform: translate(-50%,-50%);
+      
+    }
+    .welcome{
+        display: none;
+    }
+    .loginForm{
+        padding: 0.1rem ,0.1rem;
+        width: 390px;
+        align-items: center;
+       justify-content: center;
+        
+        
+    }
+    input{
+        width: 350px;
+        margin-left: 100px;
+     }
+     #email{
+       margin-left: 90px;
+        
+     }
+     #password{
+     
+        margin-left: 90px;
+       
+       
+        
+     }
+    
+    button{
+        margin-left: 150px;
+    }
+}
+@media (max-width:1024px){
+    .main{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      
+    }
+    .welcome{
+        position: absolute;
+        right: 100%;
+        top: 1rem;
+        background:url("https://i.pinimg.com/474x/78/b8/f2/78b8f2676dfa43a041ff2635f38a9936.jpg");
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 300px;
+       
+        
+    }
+    .loginForm{
+       width: 450px;
+       height: 300px;
+       justify-content: center;
+        
+    }
+    input{
+        width: 300px;
+    }
+}

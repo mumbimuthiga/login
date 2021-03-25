@@ -1,0 +1,95 @@
+@media screen and (min-width: 100px)  {
+
+body {
+    margin: 0px;
+    padding: 0px;
+    color: black; 
+    overflow-y: hidden;
+    background-color: white;   
+}
+.main{
+    background-color: #696969;
+    width: 100%;
+    position: relative;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 50%;
+    
+
+}
+.login{
+    position: absolute;
+    margin: 0px;
+    width: 460px;
+   background-color: white;
+    top: 5%;
+    left: 40%;
+    right: 25%;
+    height: fit-content;
+  
+ 
+}
+
+.welcome{
+    margin-left: 160px;
+    margin-top: 160px;
+    background: url("https://i.pinimg.com/474x/78/b8/f2/78b8f2676dfa43a041ff2635f38a9936.jpg" );
+    background-repeat: no-repeat;
+    height: 300vh;
+    width: 460px;
+    left: 10%;
+}
+h6 { 
+    margin-left: 80%;
+}
+
+.form-welcome{
+    margin-top: 120px;
+   
+}
+
+
+
+
+
+
+.form-input{
+    display: grid;
+    grid-template-columns:50%;
+    margin-top: 60px;   
+    
+}
+.form-control{
+    height: 100%;
+    border: none;
+    margin-left: 0px;   
+}
+input{
+    padding: 10px 20px;
+    margin:20px;
+    box-sizing:content-box;
+    border-radius: 2px;
+    font-weight: 300;
+    width: 300px;
+    margin-left: 70px;
+    height: 40px;
+    background-color: #dedede;
+}
+
+
+
+button{
+    padding: 10px 20px;
+    margin:20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 100px;
+    height: fit-content;
+    cursor: pointer;
+    color: white;
+    background-color: 	#808080;
+    margin-left: 220px;
+    border: none;
+}
+}
+
